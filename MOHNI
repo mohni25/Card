@@ -1,0 +1,108 @@
+!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            background-color: aquamarine;
+        }
+        #mainContainer{
+            height: 100vh;
+        }
+        #container{
+            
+            width: 350px;
+        
+            margin: auto;
+        }
+        #header{
+            background-color: azure;
+            padding: 2px;
+            text-align: center;
+        }
+        #img  {
+            border-radius: 50%;
+        }
+        #imgDiv{
+            text-align: center;
+            padding: 20px;
+        }
+        #section{
+            background-color: rgb(40,20,20);
+        }
+        #pDiv{
+            color:white;
+            text-align: center;
+            padding: 20px;
+        }
+        table{
+            width: 100%;
+            color:cornsilk;
+        }
+        #tableDiv{
+            padding: 10px;
+
+        }
+        #btmDiv{
+            text-align: center;
+            padding: 10px;
+            
+
+        }
+        button{
+            padding: 10px;
+            border: none;
+
+            background-color:papayawhip;
+            width: 35%;
+            margin-right: 20px;
+            
+        }
+
+    </style>
+    
+    
+</head>
+<body>
+    <div id="mainContainer">
+        <div id="container">
+            <div id="header">
+                <h2>MOHNI SAHU</h2>
+            </div>
+            <div id="section">
+                <div id="imgDiv">
+                    <img src=" 9.jpg" height="150px" width="150"/>
+                </div>
+
+                <div id="pDiv">
+                    <p> mohni sahu   </p>
+                    <p>software developer</p>
+                </div>
+
+                <div id="tableDiv">
+                    <table>
+                        <tr>
+                            <th>
+                                <h4>200</h4>
+                                <h4>Post</h4>
+                            </th>
+                            <th> 
+                                <h4>200</h4>
+                                <h4>Following</h4>
+                            </th>
+                            <th> 
+                                <h4>500</h4>
+                                <h4>Follwers</h4>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+
+                <div id="btmDiv">
+                    <button>Follow</button>
+                    <button>Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
